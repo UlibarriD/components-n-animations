@@ -1,0 +1,16 @@
+@import url("./Pulse/pulse.css");
+
+.global-width {
+  max-width: 1264px;
+}
+.large-box {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: -2px 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #275559;
+}
+.astro-code {
+  padding: 1rem;
+  border-radius: 8px;
+}

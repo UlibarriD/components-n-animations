@@ -1,0 +1,41 @@
+<header>
+  <nav class="global-width">
+    <h1>DAnimatios</h1>
+
+    <ul>
+      <a href="/"><li>Home</li></a>
+      <li>Light / Dark</li>
+      <li>Filters</li>
+    </ul>
+  </nav>
+</header>
+
+<style>
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(16, 38, 46, 0.35);
+    backdrop-filter: blur(2px);
+    border-bottom: 1px solid #10262e;
+  }
+  nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0rem;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  ul li {
+    list-style: none;
+    cursor: pointer;
+  }
+</style>

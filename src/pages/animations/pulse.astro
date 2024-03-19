@@ -1,0 +1,29 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import AnimationContainer from "@/components/Animations/AnimationContainer.astro";
+import Pulsemd from "@/components/Animations/Pulse/Pulsemd.md";
+---
+
+<Layout title="DAnimations">
+  <div class="content-animation global-width">
+    <AnimationContainer>
+      <div class="large-box" id="Pulse"></div>
+    </AnimationContainer>
+    <div>
+      <h1>Pulse</h1>
+      <Pulsemd />
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .content-animation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  h1 {
+    margin-bottom: 1rem;
+  }
+</style>

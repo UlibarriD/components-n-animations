@@ -1,0 +1,23 @@
+#Pulse {
+  border: 0;
+  animation: pulse 2s;
+  animation-iteration-count: 4;
+  box-shadow: none;
+}
+
+.animations-card:hover #Pulse {
+  animation: pulse 2s infinite;
+}
+
+.animation-container #Pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(107, 152, 169, 0.18);
+  }
+  100% {
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+  }
+}

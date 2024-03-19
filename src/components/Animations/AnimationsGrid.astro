@@ -1,0 +1,16 @@
+---
+import Pulse from "./Pulse/Pulse.astro";
+---
+
+<div class="animations-container">
+  <Pulse />
+</div>
+
+<style>
+  .animations-container {
+    width: 80%;
+    max-width: 1264px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+</style>
